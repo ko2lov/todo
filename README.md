@@ -48,19 +48,6 @@
 
 ## Структура проекта
 
-Проект имеет следующую структуру:
-src/
-├── App.jsx
-├── App.scss
-├── Header.jsx
-├── Task.jsx
-├── Task.scss
-├── TaskForm.jsx
-├── TaskForm.scss
-├── TaskFilter.jsx
-├── TaskFilter.scss
-└── TaskList.jsx
-
 ### Компоненты
 
 - **App.jsx**: Главный компонент, который содержит состояние и логику приложения.
