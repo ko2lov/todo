@@ -1,0 +1,13 @@
+.task-filter {
+  margin-bottom: 20px;
+
+  button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background: #e0e0e0;
+    }
+  }
+}

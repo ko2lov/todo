@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    background: #f9f9f9;
+    transform: scale(1.01);
+  }
+
+  h3,
+  p {
+    margin: 0;
+  }
+
+  button {
+    margin-left: 10px;
+    padding: 5px;
+  }
+
+  &.completed {
+    text-decoration: line-through;
+  }
+}
